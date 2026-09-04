@@ -1,6 +1,7 @@
 #include <stdio.h>;
 
 #include "cpu_monitor.h"
+#include <unistd.h>
 
 static int is_valid_usage(double usage)
 {
